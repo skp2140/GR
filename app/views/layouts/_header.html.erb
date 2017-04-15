@@ -6,10 +6,10 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home",   root_path %></li>
         <li><%= link_to "Grand Ravine",   openscadpm_path %></li>
-        <li><%= link_to "Packages",   packages_path %></li>
         <li><%= link_to "RCM Application",   documentation_path %></li>
         <li><%= link_to "Support",   support_path %></li>
         <% if logged_in? %>
+          <li><%= link_to "Reports", users_path %></li>
           <li><%= link_to "Users", users_path %></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
