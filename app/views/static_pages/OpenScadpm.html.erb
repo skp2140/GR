@@ -1,4 +1,13 @@
 <% provide(:title, "About") %>
-<h1>What is OpenSCADpm?</h1>
-<p>OpenSCADpm helps developers share and re-use code in order to build wonderful designs.</p>
+<div class="center jumbotron">
+  <h1>What is Grand Ravine?</h1>
+  <h3>The Water Management Solution for Grand Ravine, Haiti</h3>
+  <p>
+  'RCM Application' offers a unique solution to managing water in the Grand Ravine Slum of the Haiti's capital, Port-au-Prince. The application engine uses advanced machine learning methods and data obtained from various weather predicting sources and water tank sensors to determine the best water allocation within the slum. Please sign up to view the most recent water reports.
+  </p>
+  <%= link_to "Sign up", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<div class="home_pic">
+<%= image_tag("poverty_haiti.jpg", :alt => "Poverty in Haiti") %>
+</div>
 
