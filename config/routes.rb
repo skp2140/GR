@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get  '/rcm',    to: 'static_pages#Documentation'
 
-  get  '/packages',    to: 'static_pages#Packages'
+  get  '/reports',    to: 'static_pages#Packages'
 
   get  '/support',    to: 'static_pages#Support'
 
