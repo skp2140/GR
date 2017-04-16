@@ -4,9 +4,9 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
-  get  '/openscadpm',    to: 'static_pages#OpenScadpm'
+  get  '/grandravine',    to: 'static_pages#OpenScadpm'
 
-  get  '/documentation',    to: 'static_pages#Documentation'
+  get  '/rcm',    to: 'static_pages#Documentation'
 
   get  '/packages',    to: 'static_pages#Packages'
 
